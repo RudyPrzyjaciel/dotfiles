@@ -112,9 +112,5 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# powerline theme
-#REPOSITORY_ROOT=$(pip show powerline-status | grep "Location:" | awk  '{print $2}')
-#source ${REPOSITORY_ROOT}/powerline/bindings/zsh/powerline.zsh
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
